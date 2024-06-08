@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Verdana, sans-serif;
+    /* Yazı tipi ailesi */
+    font-size: 11px;
+    /* <p></p> etiketindeki ana yazı tipi boyutu */
+    background-color: #f0f0f0;
+    /* Web sayfasının arka plan rengi */
+    color: #333;
+    /* Metin rengi */
+}
+
+@keyframes color-change {
+    0%{
+        color: blue;
+    }
+
+    25%{
+        color: white;
+    }
+
+    50%{
+        color: red;
+    }
+
+    75%{
+        color: white;
+    }
+
+    100%{
+        color: blue;
+    }
+
+
+}
+
+
+h1 {
+    animation: color-change 3s infinite;
+}
+
+h2 {
+    animation: color-change 3s infinite;
+}
+
+h3 {
+    animation: color-change 3s infinite;
+    font-size: 15px;
+}
